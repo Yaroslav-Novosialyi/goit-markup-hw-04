@@ -33,8 +33,12 @@
      border-radius: 4px;
      background-color: #f4f4fd;
      border: 1px solid #8e8f99 ;
+     width: 100%;
 }
 
 .features-icon {
+     width: 64px;
+     height: 64px;
+     display: block;
      fill: #2e2f42;
 }
