@@ -26,9 +26,9 @@
      background-color: #FFFFFF;
      border-radius: 0 0 4px 4px;
      box-shadow:
-               0px 1px 6px rgba(46, 47, 66, 0.08),
-               0px 1px 1px rgba(46, 47, 66, 0.16),
-               0px 2px 1px rgba(46, 47, 66, 0.08);
+          0 2px 1px rgba(46, 47, 66, 0.08),
+          0 1px 1px rgba(46, 47, 66, 0.16),
+          0 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .team-card {
@@ -64,7 +64,7 @@
      display: flex;
      justify-content: center;
      gap: 24px;
-     margin-top: 16px;
+     margin-top: 8px;
      padding: 0;
      list-style:none;
 }
@@ -81,3 +81,11 @@
      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.soc-team-link:hover,
+.soc-team-link:focus {
+     background-color: #404bbf;
+}
+
+.team-social-icon {
+     fill: #f4f4fd;
+}

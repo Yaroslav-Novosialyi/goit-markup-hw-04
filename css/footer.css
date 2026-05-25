@@ -12,7 +12,7 @@
           margin: 0 auto;
           box-sizing: border-box;
      display: flex;
-     align-items: baseline;
+     align-items: flex-start;
 }
 
 .footer-left {
@@ -81,5 +81,5 @@
 
 .footer-link:hover,
 .footer-link:focus {
-     background-color: #404bbf;
+     background-color: #31d0aa;
 }
